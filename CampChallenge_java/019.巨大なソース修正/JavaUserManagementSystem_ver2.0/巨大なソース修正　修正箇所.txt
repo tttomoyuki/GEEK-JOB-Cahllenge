@@ -1,0 +1,29 @@
+
+//JAVAファイル//
+
+・ResultDatail.javaを修正
+　　
+    --UserDataDTOクラスのsearchDataインスタンス。
+　　setUserIDメソッドの戻り値が(2)になっていてSQL文がおかしくなっていたので修正。
+
+
+・UserDataDAOに全件表示のためのメソッドselectを作成。
+
+・UserDataDAOにデータのアップデートのためのメソッドupdateを作成。
+
+・UserDataDAOにデータの削除のためのメソッドdeleteを作成。
+
+・Update関連のサーブレットを修正。
+
+・Delete関連のサーブレットを修正。
+
+
+//JSPファイル//
+
+・searchresultのa hrefタグからきちんと値が送られるよう修正。
+
+・各jspからトップへ戻れるよう修正。　
+
+・delete.jspからResultDetail.javaに戻った際に値が送られるよう修正。
+
+
